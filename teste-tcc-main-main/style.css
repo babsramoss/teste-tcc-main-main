@@ -538,6 +538,25 @@ text-align: center;
         font-size: 3.5rem;
     }
 
+.newsletter{
+        background-position: right;
+    }
+    .newsletter form{
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .deal {
+        text-align: center;
+    }
+}
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+
+    
 }
 
 @media (max-width:450px){
@@ -547,3 +566,55 @@ text-align: center;
     }
 
 }
+
+
+
+.reviews .reviews-slider  .box{
+   width: 30rem;
+border: var(--border);
+padding: 2rem;
+text-align: center;
+
+}
+
+
+
+.reviews .reviews-slider  .box:hover{
+    border: var(--border-hover);
+}
+
+    .reviews .reviews-slider  .box img{
+        height: 7rem;
+        width: 7rem;
+border-radius: 50%;
+object-fit: cover;
+    }
+
+
+
+    .reviews .reviews-slider  .box h3{
+color: var(--black);
+font-size: 2.2rem;
+padding: 5.rem 0;
+
+ }
+
+
+
+ .reviews .reviews-slider  .box p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    padding: 1.rem 0;
+    line-height: 2;
+
+     }
+
+
+
+     .reviews .reviews-slider  .box .stars i{
+font-size: 1.7rem;
+color: var(--green);
+     }
+
+
+gente termino amanha e fe blz um beijao
